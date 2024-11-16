@@ -5,4 +5,4 @@ while x >= 0:
     x = int(input('\nIntroduza um número: '))
 
 print()
-print('\nA soma de todos os números que você introduziu é',soma)
+print('\n A soma de todos os números que você introduziu é',soma)
