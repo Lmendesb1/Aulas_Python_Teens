@@ -5,7 +5,7 @@ root.title("Colors")
 
 azul='#00caff'
 vermelho='#c77373'
-amarelo='#e2d934'
+amarelo='#e2d934' 
 verde='#59974c'
 
 root.geometry('500x600')
