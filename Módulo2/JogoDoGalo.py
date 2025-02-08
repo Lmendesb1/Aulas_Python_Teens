@@ -1,4 +1,4 @@
-
+import tkinter as tk
 from tkinter import messagebox
 
 # Função chamada quando um botão é clicado
