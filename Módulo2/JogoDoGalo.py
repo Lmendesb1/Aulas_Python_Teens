@@ -8,8 +8,11 @@ def clica_botao(index):
     if board[index] == '':
         # Atualiza o tabuleiro com o jogador atual
         board[index] = jogador_atual
+
+        cor = "blue" if jogador_atual == "X" else "red"
+        
         # Atualiza o texto do botão
-        buttons[index].config(text=jogador_atual)
+        buttons[index].config(text=jogador_atual, bg=cor)
         # Verifica se há um vencedor
         if verifica_vencedor():
             messagebox.showinfo("Fim de Jogo", f"Jogador {jogador_atual} venceu!")
